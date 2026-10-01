@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090b10">
+  <title>Pakistan Cinema | Now Showing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">PK</span><span>PAKISTAN <b>CINEMA</b></span></a>
+  <nav>
+    <a href="#now">Now Showing</a><a href="#soon">Coming Soon</a><a href="#sources">Sources</a>
+  </nav>
+  <div id="statusPill" class="status-pill">Loading cinema feed…</div>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <div class="eyebrow">THE BIG SCREEN • PAKISTAN</div>
+      <h1>WHAT'S PLAYING<br><span>RIGHT NOW.</span></h1>
+      <p>One clean, scrolling view of films playing and arriving in Pakistani cinemas.</p>
+      <div class="hero-actions">
+        <a class="primary" href="#now">Explore movies</a>
+        <button id="refreshBtn" class="secondary">Refresh data</button>
+      </div>
+      <div class="meta-line"><span id="lastUpdated">Checking latest dataset…</span><span id="movieCount"></span></div>
+    </div>
+  </section>
+
+  <section class="toolbar">
+    <label class="search"><span>⌕</span><input id="searchInput" placeholder="Search movies, cast, genre…"></label>
+    <select id="typeFilter"><option value="all">All movies</option><option value="Pakistani">Pakistani</option><option value="International">International</option></select>
+    <select id="cityFilter"><option value="all">All cities</option></select>
+  </section>
+
+  <section class="section" id="now">
+    <div class="section-head"><div><div class="eyebrow">IN CINEMAS</div><h2>Now Showing</h2></div><div class="rail-buttons"><button data-rail="nowRail" data-dir="-1">‹</button><button data-rail="nowRail" data-dir="1">›</button></div></div>
+    <div id="nowRail" class="movie-rail"></div>
+  </section>
+
+  <section class="section" id="soon">
+    <div class="section-head"><div><div class="eyebrow">NEXT ON THE BIG SCREEN</div><h2>Coming Soon</h2></div><div class="rail-buttons"><button data-rail="soonRail" data-dir="-1">‹</button><button data-rail="soonRail" data-dir="1">›</button></div></div>
+    <div id="soonRail" class="movie-rail"></div>
+  </section>
+
+  <section class="sources section" id="sources">
+    <div class="eyebrow">DATA TRANSPARENCY</div><h2>Live-source architecture</h2>
+    <p>The daily GitHub workflow checks configured Pakistani cinema listing pages and publishes a normalized JSON feed. If a source fails, the last healthy dataset remains online.</p>
+    <div id="sourceList" class="source-list"></div>
+  </section>
+</main>
+
+<dialog id="movieDialog">
+  <button id="closeDialog" class="close">×</button>
+  <div id="dialogBody"></div>
+</dialog>
+
+<footer>PAKISTAN CINEMA <span>•</span> Independent cinema-discovery project</footer>
+<script src="script.js"></script>
+</body>
+</html>
