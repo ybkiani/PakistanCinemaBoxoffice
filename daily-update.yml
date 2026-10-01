@@ -1,0 +1,30 @@
+name: Daily Pakistan cinema update
+on:
+  schedule:
+    # 03:15 UTC = 08:15 Pakistan Standard Time
+    - cron: '15 3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cinema-data-refresh
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh Pakistan cinema data
+        run: python scripts/update_movies.py
+      - name: Validate generated JSON
+        run: python -m json.tool data/movies.json > /dev/null
+      - name: Commit only when listings changed
+        run: |
+          git config user.name "Pakistan Cinema Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/movies.json
+          git diff --cached --quiet || git commit -m "Cinema listings: daily refresh"
+          git push
