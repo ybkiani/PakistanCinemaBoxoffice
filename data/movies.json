@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-01T13:30:00+05:00",
-  "update_status": "fallback_seed",
+  "last_updated": "2026-10-02T08:27:07+05:00",
+  "update_status": "success",
   "sources": [
     {
       "name": "Showtimes.pk",
@@ -23,6 +23,38 @@
       "url": "https://cinestar.pk/Browsing/Movies/NowShowing"
     }
   ],
+  "source_health": [
+    {
+      "name": "Showtimes.pk",
+      "url": "https://www.showtimes.pk/",
+      "ok": true,
+      "candidates": 28
+    },
+    {
+      "name": "Cinepax",
+      "url": "https://cinepax.com/Browsing/Movies/NowShowing",
+      "ok": true,
+      "candidates": 12
+    },
+    {
+      "name": "Universal Cinemas",
+      "url": "https://universalcinemas.com/Browsing/Movies/NowShowing",
+      "ok": true,
+      "candidates": 24
+    },
+    {
+      "name": "ME Cinemas",
+      "url": "https://www.mecinemas.com/movies.php",
+      "ok": true,
+      "candidates": 34
+    },
+    {
+      "name": "CineStar",
+      "url": "https://cinestar.pk/Browsing/Movies/NowShowing",
+      "ok": true,
+      "candidates": 15
+    }
+  ],
   "movies": [
     {
       "id": "sheroes-2026",
@@ -38,7 +70,8 @@
       "cities": [],
       "poster": "",
       "backdrop": "",
-      "synopsis": "Pakistani theatrical release scheduled for 2 October 2026. The daily updater will move titles between Coming Soon and Now Showing when current cinema listings confirm the change."
+      "synopsis": "Pakistani theatrical release scheduled for 2 October 2026. The daily updater will move titles between Coming Soon and Now Showing when current cinema listings confirm the change.",
+      "seen_in_latest_scan": true
     },
     {
       "id": "lutt-mubarak-2026",
@@ -54,7 +87,8 @@
       "cities": [],
       "poster": "",
       "backdrop": "",
-      "synopsis": "Included as a seed title so the website is never blank before the first successful automated refresh."
+      "synopsis": "Included as a seed title so the website is never blank before the first successful automated refresh.",
+      "seen_in_latest_scan": true
     }
   ]
 }
