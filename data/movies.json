@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04T10:17:16+05:00",
+  "last_updated": "2026-10-05T08:28:49+05:00",
   "update_status": "success",
   "sources": [
     {
@@ -28,7 +28,7 @@
       "name": "Showtimes.pk",
       "url": "https://www.showtimes.pk/",
       "ok": true,
-      "candidates": 31
+      "candidates": 18
     },
     {
       "name": "Cinepax",
@@ -46,13 +46,13 @@
       "name": "ME Cinemas",
       "url": "https://www.mecinemas.com/movies.php",
       "ok": true,
-      "candidates": 0
+      "candidates": 35
     },
     {
       "name": "CineStar",
       "url": "https://cinestar.pk/Browsing/Movies/NowShowing",
       "ok": true,
-      "candidates": 15
+      "candidates": 14
     }
   ],
   "movies": [
