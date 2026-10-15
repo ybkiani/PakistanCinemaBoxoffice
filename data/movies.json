@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T08:38:48+05:00",
+  "last_updated": "2026-10-15T13:13:55+05:00",
   "update_status": "success",
   "sources": [
     {
@@ -40,19 +40,19 @@
       "name": "Universal Cinemas",
       "url": "https://universalcinemas.com/Browsing/Movies/NowShowing",
       "ok": true,
-      "candidates": 23
+      "candidates": 26
     },
     {
       "name": "ME Cinemas",
       "url": "https://www.mecinemas.com/movies.php",
       "ok": true,
-      "candidates": 33
+      "candidates": 28
     },
     {
       "name": "CineStar",
       "url": "https://cinestar.pk/Browsing/Movies/NowShowing",
       "ok": true,
-      "candidates": 16
+      "candidates": 20
     }
   ],
   "movies": [
