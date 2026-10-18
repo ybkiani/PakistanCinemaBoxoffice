@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17T12:44:00+05:00",
+  "last_updated": "2026-10-18T12:58:33+05:00",
   "update_status": "success",
   "sources": [
     {
@@ -28,7 +28,7 @@
       "name": "Showtimes.pk",
       "url": "https://www.showtimes.pk/",
       "ok": true,
-      "candidates": 21
+      "candidates": 24
     },
     {
       "name": "Cinepax",
