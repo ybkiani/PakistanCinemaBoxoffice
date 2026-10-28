@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T13:54:47+05:00",
+  "last_updated": "2026-10-28T14:35:14+05:00",
   "update_status": "success",
   "sources": [
     {
@@ -46,7 +46,7 @@
       "name": "ME Cinemas",
       "url": "https://www.mecinemas.com/movies.php",
       "ok": true,
-      "candidates": 25
+      "candidates": 29
     },
     {
       "name": "CineStar",
