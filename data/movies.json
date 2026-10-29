@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T14:35:14+05:00",
+  "last_updated": "2026-10-29T14:52:46+05:00",
   "update_status": "success",
   "sources": [
     {
@@ -40,13 +40,13 @@
       "name": "Universal Cinemas",
       "url": "https://universalcinemas.com/Browsing/Movies/NowShowing",
       "ok": true,
-      "candidates": 24
+      "candidates": 26
     },
     {
       "name": "ME Cinemas",
       "url": "https://www.mecinemas.com/movies.php",
       "ok": true,
-      "candidates": 29
+      "candidates": 25
     },
     {
       "name": "CineStar",
