@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T15:23:17+05:00",
+  "last_updated": "2026-11-02T15:56:51+05:00",
   "update_status": "success",
   "sources": [
     {
@@ -28,7 +28,7 @@
       "name": "Showtimes.pk",
       "url": "https://www.showtimes.pk/",
       "ok": true,
-      "candidates": 21
+      "candidates": 14
     },
     {
       "name": "Cinepax",
@@ -52,7 +52,7 @@
       "name": "CineStar",
       "url": "https://cinestar.pk/Browsing/Movies/NowShowing",
       "ok": true,
-      "candidates": 10
+      "candidates": 12
     }
   ],
   "movies": [
