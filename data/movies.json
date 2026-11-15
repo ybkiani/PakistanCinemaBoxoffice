@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T15:17:02+05:00",
+  "last_updated": "2026-11-15T15:45:51+05:00",
   "update_status": "success",
   "sources": [
     {
@@ -28,7 +28,7 @@
       "name": "Showtimes.pk",
       "url": "https://www.showtimes.pk/",
       "ok": true,
-      "candidates": 29
+      "candidates": 32
     },
     {
       "name": "Cinepax",
@@ -46,7 +46,7 @@
       "name": "ME Cinemas",
       "url": "https://www.mecinemas.com/movies.php",
       "ok": true,
-      "candidates": 31
+      "candidates": 32
     },
     {
       "name": "CineStar",
